@@ -40,7 +40,7 @@ def test():
             print('\n EL REGISTRO SE CARGO CON EXITO!!!\n')
         elif op == 2:
             if len(alquileres) == 0:
-                print('No cargo datos en el vector')
+                print('No cargo datos en el registro')
             else:
                 display(alquileres)
         elif op == 3:
